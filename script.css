@@ -3,6 +3,12 @@ form {
     width: 400px;
 }
 
+h1 {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
 label {
     display: inline-block;
     width: 90px;

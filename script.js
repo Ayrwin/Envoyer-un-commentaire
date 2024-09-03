@@ -7,11 +7,13 @@ form.addEventListener("submit",(event)=>{
     let prenom = document.querySelector("#prenom").value;
     let commentaire = document.querySelector("#commentaire").value;
 
-    if(nom == "" || prenom == "" || commentaire == ""){
+    if(nom == "" || prenom == "" || commentaire == "")
+    {
         let errorMessage = document.querySelector(".message-error");
         errorMessage.style.display = "block"
     }
-    else(nom == "#nom" || prenom == "#prenom" || commentaire == "#commentaire"){
+    else(nom == "#nom" || prenom == "#prenom" || commentaire == "#commentaire")
+    {
         let submit = document.querySelector(".submit");
     }
 })
